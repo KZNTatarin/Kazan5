@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body{
+    font-family: Arial;
+    background:  url(../img/fon2.jpg);
+}
+
+.Title-1{
+    font-size: 50px;
+    margin: 30px 0 60px 0;
+    font-family: arial;
+    text-align: center;
+    color: #464646;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.title-img {
+    height: 300px;
+    width: 300px;
+    margin: 0 0 0 20px;
+}
+
+.title-block{
+    margin: 50px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
+
+h2{
+font-size: 30px;
+    margin: 30px 0 30px 0;
+    font-family: arial;
+    text-align: center;
+    color: #464646;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+
+.img{
+  display: block;
+    margin: auto;
+    height: 300px;
+    border: 10px solid #ffffff;
+   box-shadow: 0 0 10px #000;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+    margin: 30px;
+    padding:  50px 50px 25px 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.block-img{
+    display: block;
+  margin: auto;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+   
+}
+
+
+.block-card{
+    background-color: #b4b4b4;
+    margin: 50px;
+  width: 50%;
+    padding: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    
+    
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
+
+.block-card li{
+    margin: 0 0 40px 0;
+}
+
+.Plus{
+    font-size: 23px;
+    color: #00ff00;
+}
+
+.minus{
+    font-size: 23px;
+    color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
